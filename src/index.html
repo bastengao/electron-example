@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+  </head>
+  <body ng-app="your-app">
+    <h1>Hello World!</h1>
+    We are using io.js <script>document.write(process.version)</script>
+    and Electron <script>document.write(process.versions['electron'])</script>.
+
+    <button id="button">Click me</button>
+
+    <button id="chooseFile">Choose File</button>
+    <p id="output"></p>
+
+    <input type="text" ng-model="text"> {{text}}
+
+    <script src="bower_components/angularjs/angular.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
